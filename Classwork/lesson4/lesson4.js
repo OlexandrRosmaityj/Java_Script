@@ -35,8 +35,7 @@
 // // // - створити функцію яка повертає найбільше число з масиву
 //
 //  let arr = [30,32,2,9,89,20]
-// function arrMax(i) {
-//     let max = i[0];
+// /     let max = i[0];
 //     for (const element of i) {
 //         if(element > max){
 //             max = element;
@@ -100,8 +99,90 @@
 //
 // let
 
-let array =[1, 3, 6, 9, 12]
-for (let i = array.length - 1; i >= 0; i--) {
-  let arrayElement = array[i];
-    document.write( arrayElement)
+// let array =[1, 3, 6, 9, 12]
+// for (let i = array.length - 1; i >= 0; i--) {
+//   let arrayElement = array[i];
+//     document.write( arrayElement)
+// }
+
+//
+// let arr = [30,32,2,9,89,20]
+//     for (let element of arr) {
+//
+//         console.log(arr)
+//              }
+//     document.write(arr)
+// console.log(arr)
+// debugger
+
+// let summArray = [1,2,3,4];
+//
+// for (let i = 0; i < summArray.length; i++){
+//     let sum = 0
+//     sum = summArray[i] + sum;
+//
+//     console.log(sum)
+// }
+// out.innerHTML = sum
+
+//         arrayEmpty.push(Math.floor(Math.random()*100));
+// let sum = 0;
+//    for (const arrayElement of summArray) {
+//
+//        sum = arrayElement + sum;
+//       }
+
+
+
+//
+// for(let i=0,j=arr.length-1; i<j; i++,j--) {console.log(temp)
+//     temp = arr[j]; arr[j] = arr[i]; arr[i] = temp;
+// }
+// document.write(arr)
+
+//
+// / 8. вивести масив в зворотньому порядку.        ===============================
+// // let arrayNumbersBack = [2,17,13,6,22,31,45,66,100,-18];
+// // for (let i = arrayNumbersBack.length-1; i >= 0; i--){
+// //     console.log(arrayNumbersBack[i]);
+
+//
+// const minMax = (...arg) => {
+//     let min = arg[0];
+//     let max = arg[0];
+//     for (const element of arg) {
+//         if (element > max) {
+//             max = element;
+//         }
+//         if (element < min) {
+//             min = element;
+//         }
+//     }
+//     console.log("max ", element);
+//     return min;
+// }
+// document.write( minMax(-10, 10, -1000233, 734848734))
+debugger
+let arr = [1,2,3,4,5]
+let arrRew = (arr) =>{
+    let narr =[];
+    for (let i = narr.length - 1; i >= 0; i--) {
+      narr[narr.length] = arr[i];
+    }
+    console.log(narr);
+    arr = narr;
+    console.log(arr)
 }
+
+
+
+let makeValidName = (str) => {
+    let arrTmp = str.split('');
+    for (let i = 0; i < arrTmp.length; i++) {
+        if (arrTmp[i] === '-' || arrTmp[i] === '_' || arrTmp[i] === '.') {
+            arrTmp[i] = ' ';
+        }
+    }
+    return arrTmp.join('');
+};
+

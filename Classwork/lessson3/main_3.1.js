@@ -1,16 +1,15 @@
 
 
 // зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
-let array = [2, 17, 13, 6, -22, 31, 45, 15, 9, 5, 63, 25];
-
-
-    // 1. перебрати його циклом while
-debugger
-let i = х5;
-while (i < array[i]) {
-    console.log(array[i]);
-    i++;
-};
+// let array = [2, 17, 13, 6, -22, 31, 45, 15, 9, 5, 63, 25];
+//
+//
+// //     1. перебрати його циклом while
+// // let i = 0;
+// while (i < array.length) {
+//     console.log(array[i]);
+//     i++;
+// };
 
 
 
@@ -100,3 +99,5 @@ while (i < array[i]) {
 //     if (k % 2 !== 0)
 // //    console.log(array[k]);
 // // };
+
+
