@@ -4,8 +4,8 @@
 // Візьміть файл template1.html, підключіть до нього скрипт, і працюйте в ньому!
 // -- Напишіть код,  який за допомоги document.getElementById або document.getElementsByClassName або document.getElementsByTagName :
 // -- отримує текст з параграфа з id "content"
-// let contentId = document.getElementById ('content');
-// console.log(contentId);
+let contentId = document.getElementById ('content');
+console.log(contentId);
 
 // -- отримує текст з блоку з id "rules"
 // let rulesId = document.getElementById('rules');

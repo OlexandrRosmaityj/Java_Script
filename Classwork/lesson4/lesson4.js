@@ -162,27 +162,60 @@
 //     return min;
 // }
 // document.write( minMax(-10, 10, -1000233, 734848734))
+// debugger
+// let arr = [1,2,3,4,5]
+// let arrRew = (arr) =>{
+//     let narr =[];
+//     for (let i = narr.length - 1; i >= 0; i--) {
+//       narr[narr.length] = arr[i];
+//     }
+//     console.log(narr);
+//     arr = narr;
+//     console.log(arr)
+// }
+//
+//
+//
+// let makeValidName = (str) => {
+//     let arrTmp = str.split('');
+//     for (let i = 0; i < arrTmp.length; i++) {
+//         if (arrTmp[i] === '-' || arrTmp[i] === '_' || arrTmp[i] === '.') {
+//             arrTmp[i] = ' ';
+//         }
+//     }
+//     return arrTmp.join('');
+// };
 debugger
-let arr = [1,2,3,4,5]
-let arrRew = (arr) =>{
-    let narr =[];
-    for (let i = narr.length - 1; i >= 0; i--) {
-      narr[narr.length] = arr[i];
-    }
-    console.log(narr);
-    arr = narr;
-    console.log(arr)
+let arr = [6, 9, 3, 4]
+function sho (arr) {
+    i=3
+    let item = arr[i]
+    return console.log(arr[i])
 }
+sho(arr)
 
 
 
-let makeValidName = (str) => {
-    let arrTmp = str.split('');
-    for (let i = 0; i < arrTmp.length; i++) {
-        if (arrTmp[i] === '-' || arrTmp[i] === '_' || arrTmp[i] === '.') {
-            arrTmp[i] = ' ';
-        }
-    }
-    return arrTmp.join('');
-};
 
+let elemArr = document.createElement ('div');
+let our = elemArr.classList.add('item')
+document.body.appendChild(elemArr);
+let itemDiv = document.getElementsByClassName('item' );
+
+let h1 =''
+let h2 = document.createElement('h2');
+h2.classList.add('heading')
+h2.innerText = h1
+itemDiv[0].appendChild(h2);
+console.log(h1)
+
+for (const elemArrElement of coursesAndDurationArray) { let h1 = `${elemArrElement.title}`
+
+
+
+    // let p = document.createElement('p');
+    // p.classList.add( 'heading');
+    // p.innerText =`${elemArrElement.monthDuration}`;
+    // document.body.appendChild(p);
+    // itemDiv[0].appendChild(p);
+}

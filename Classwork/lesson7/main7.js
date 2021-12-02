@@ -16,14 +16,14 @@
 //     this.volume = volume;
 //     this.drive = function () {
 //         console.log(`Їдемо зі швидкістю ${this.maxspeed} на годину`)
-//     }
+//     };
 //
 //     this.info = function () {
 //         for (const key in this) {
 //             if (typeof this[key] !== 'function')
 //                 console.log(`${key} - ${this[key]}`)
 //         }
-//     }
+//     };
 //
 //     this.increaseMaxSpeed = function (newSpeed) {
 //                 this.maxspeed = this.maxspeed + newSpeed;
@@ -43,7 +43,7 @@
 // addCar.info();
 // addCar.increaseMaxSpeed(50);
 // addCar.drive();
-// addCar.changeYear(2015)
+// addCar.changeYear(2015);
 // addCar.info();
 // addCar.addDriver('Петро')
 // console.log(addCar)
@@ -65,17 +65,17 @@ class Cars2 {
         this.year = year;
         this.maxspeed = maxspeed;
         this.volume = volume;
-    }
+    };
         drive()  {
             console.log(`Їдемо зі швидкістю ${this.maxspeed} на годину`)
-        }
+        };
 
     info () {
             for (const key in this) {
                 if (typeof this[key] !== 'function')
                 console.log(`${key} - ${this[key]}`)
             }
-        }
+        };
 
      increaseMaxSpeed (newSpeed) {
             this.maxspeed = this.maxspeed + newSpeed;
@@ -89,7 +89,7 @@ class Cars2 {
             this.driver = driver
         };
 
-}
+};
 
 let addCar = new Cars2('WV', 'Detchland', 2010, 200,2 );
 console.log(addCar);

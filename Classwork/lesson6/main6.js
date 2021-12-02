@@ -82,13 +82,13 @@
 
 // - створити масив рандомних цілих числових значень (або згенерувати, за допомоги попередньої функції) .
 // за допомоги map та колбеку перетворити всі об'єкти в масиві на стрінгові.
-
-let arr = [45, 2, 26, 56, 89, 20 ]
-let map = arr.map(vaue => {
-    return vaue + " "
-    }
-);
-console.log(map);
+//
+// let arr = [45, 2, 26, 56, 89, 20 ]
+// let map = arr.map(vaue => {
+//     return vaue + " "
+//     }
+// );
+// console.log(map);
 
 
 
@@ -105,24 +105,49 @@ console.log(map);
 // console.log(sortNums([145, 2, 26, 56, 89, 20], 'desc') );
 
 // - є масив
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
 
 // -- відсортувати його за спаданням за monthDuration
 
-let Sort = coursesAndDurationArray.sort((a, b) => b.monthDuration - a.monthDuration);
-console.log(Sort);
-
+// let Sort = coursesAndDurationArray.sort((a, b) => b.monthDuration - a.monthDuration);
+// console.log(Sort);
+//
 
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
 
-let filter = coursesAndDurationArray.filter((vaue) => {
-    return vaue.monthDuration > 5;
-});
-console.log(filter)
+// let filter = coursesAndDurationArray.filter((vaue) => {
+//     return vaue.monthDuration > 5;
+// });
+// console.log(filter)
+debugger
+// function calc (a, b) {
+//     let result = 1;
+//     for (let i = 0; i < b; i++) {
+//       result *= a
+//     }
+//     return result
+// }
+// console.log( calc(2,3))
+
+// function calc (a, b) {
+//     if (b ===1){
+//         return a
+//     }
+//     else {
+//         return a * calc( a, b-1)
+//     }
+// }
+// console.log(calc(2,3) )
+
+let num
+for ( num = 0; num < 5; num++) {
+// console.log(num)
+    }
+console.log(num)
