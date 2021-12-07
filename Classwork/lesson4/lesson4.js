@@ -219,3 +219,14 @@ for (const elemArrElement of coursesAndDurationArray) { let h1 = `${elemArrEleme
     // document.body.appendChild(p);
     // itemDiv[0].appendChild(p);
 }
+var data = [
+    {name: 'Joe', age: 20},
+    {name: 'Bill', age: 30},
+    {name: 'Kate', age: 23}
+]
+function getNames(data){
+    for(i of data){
+        console.log(i.name, i.age);
+    }
+}
+getNames(data)
